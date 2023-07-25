@@ -68,7 +68,7 @@ export interface CommonProps<T = any> {
      *
      * Item data is useful for item renderers that are class components.
      */
-    itemData?: T | undefined;
+    itemData?: T[] | undefined;
     /**
      * Tag name passed to document.createElement to create the outer container element. This is an advanced property; in most cases, the default ("div") should be used.
      */
